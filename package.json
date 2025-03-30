@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --ci --forceExit --detectOpenHandles --runInBand"
+    "build": "echo 'Skipping build, no build step needed'"
   },
   "repository": {
     "type": "git",
