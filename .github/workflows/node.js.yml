@@ -1,3 +1,7 @@
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
 # Name of the workflow
 name: Node.js CI
 
