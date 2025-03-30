@@ -16,6 +16,7 @@ jobs:
   build:
     # Specifies the type of virtual host environment (runner) to use
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     # Strategy for running the jobs - this section is useful for testing across multiple environments
     strategy:
